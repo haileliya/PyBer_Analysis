@@ -10,11 +10,11 @@ The objective of this analysis is to create a summary DataFrame of the ride-shar
 
 In this analysis, I began first by loading and merging two datasets. Additionally, I used the merged dataset to find the sum, mean, and count of for total rides, drivers, and amount of fares for each city type , using the groupby method. After finding this I found the average fare per ride and per driver for each city type. After finding these values, I created a dataframe using the pd function. Next, I removed the index from the table and formatted the columns to make sure the values were showing as currency with only 2 decimal points. The table below shows the final result.
 
-![](2022-02-05-22-20-51.png) 
+ ![](2022-02-05-22-20-51.png) 
 
 As shown in the table, rural areas have the least amount of total rides and drivers. However, the average fare per ride and far per driver is much higher than the other area location types. 
 
-![](2022-02-05-22-21-27.png)!
+ ![](2022-02-05-22-21-27.png)!
 
 From this line graph, we can see that urban areas have the most total rides. Using the table, I was able to deduce that the average fare per ride and fare per driver is much lower than suburban and rural areas. Additionally, the urban area had more total drivers than total rides. 
 
