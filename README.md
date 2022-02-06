@@ -13,6 +13,9 @@ Using images from the summary DataFrame and multiple-line chart, describe the di
 
 In this analysis, I began by loading and merging two datasets. Additionally, I used the merged dataset to find the sum, mean, and count of for total rides, drivers, and amount of fares for each city type , using the groupby method. After finding this I found the average fare per ride and per driver for each city type. After finding these values, I created a dataframe using the pd function. Next, I removed the index from the table and formatted the columns to make sure the values were showing as currency with only 2 decimal points. The table below shows the final result.
 
+![image](https://user-images.githubusercontent.com/96396696/152666443-fc6c0955-624f-4e16-99da-a5b4d0ca0c10.png)
+
+
 From this line graph, I can see that urban areas have the most rides and drivers. Using the table, I waws able to deduce that the average fare per ride and fare per driver is much lower than suburban and rural areas. Additionally, the urban area had more total drivers than total rides. As shown in the table, rural areas have the least amount of total rides and drivers. However, the average fare per ride and far per driver is much higher than the other area location types. 
 
 
